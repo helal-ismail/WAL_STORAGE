@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  moment_id: 1
+  type: 
+  value: MyString
+  attribute_id: MyString
+  action: 
+
+two:
+  moment_id: 1
+  type: 
+  value: MyString
+  attribute_id: MyString
+  action: 

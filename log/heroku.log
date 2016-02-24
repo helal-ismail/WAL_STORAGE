@@ -1,0 +1,5 @@
+  [1m[36mUser Load (830.1ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35mUser Load (125.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 251 LIMIT 1
+  [1m[36mUser Load (113.7ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 251 LIMIT 1[0m
+  [1m[35m (115.4ms)[0m  SELECT COUNT(*) FROM `moment_participants`  WHERE `moment_participants`.`user_id` = 251 AND `moment_participants`.`is_owner` = 0 AND `moment_participants`.`state` = 1
+  [1m[36m (114.6ms)[0m  [1mSELECT COUNT(*) FROM `moment_participants`  WHERE `moment_participants`.`user_id` = 251 AND `moment_participants`.`is_owner` = 0 AND `moment_participants`.`state` = 1[0m

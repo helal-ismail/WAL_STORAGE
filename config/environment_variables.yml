@@ -1,0 +1,9 @@
+common: &default_settings
+  MAILGUN_URL: 'https://api.mailgun.net/v3/sandbox5cbd7caf68bf49daa555bb833e0b3a91.mailgun.org'
+  MAILGUN_SMTP: 'smtp.mailgun.org'                                  # ENV["MAILGUN_SMTP"]
+  MAILGUN_PORT: '587'                                               # ENV["MAILGUN_PORT"]
+  MAILGUN_USERNAME: 'postmaster@sandbox5cbd7caf68bf49daa555bb833e0b3a91.mailgun.org'                 # ENV["MAILGUN_USERNAME"]
+  MAILGUN_PASSWORD: '6d03ade7fcda248413d3bd9f1c86c9ff'              # ENV["MAILGUN_PASSWORD"]
+  PARSE_APP_ID: 'sefZwoDJSXZlDsNvduMW1W9KQiVNyLMiL7prDNxm'          # ENV["PARSE_APP_ID"]
+  PARSE_API_KEY: 'uHSOuTTRFSUso7rUylXeMycJl6Q7pxlT46HpJYf7'         # ENV["PARSE_API_KEY"]
+  
