@@ -11,13 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160222090418) do
+ActiveRecord::Schema.define(version: 20160221101206) do
 
   create_table "carrierwave_ios_rails_attachments", force: true do |t|
     t.string   "file"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
 
 end
